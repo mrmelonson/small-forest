@@ -1,0 +1,8 @@
+TODO
+// Add big cave
+// Add idle in cave
+// Add events in cave
+// Add sword in cave
+// boss battle in cave
+// extra events and items
+// add map
