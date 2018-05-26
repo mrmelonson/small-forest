@@ -37,6 +37,10 @@ def Craft(player, item):
     if item == "torch":
         player.inventory['wood'] = player.inventory['wood'] - 2
         player.AddToInv("Torch", 1)
+        if player.inventory['torch'] > 100:
+            printing.Print("OMG STOP MAKING TORCHES")
+            printing.Print("FINE HERE,")
+            printing.Print("You win!! yay now go do something else ffs")
         
     explore.Idle(player)
     
